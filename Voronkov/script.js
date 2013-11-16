@@ -8,7 +8,7 @@ if (entered_login == default_login) {
         for(var i=4; i>0; i--) {
             if (entered_pwd == default_pwd) {
 		alert("Ты таки взломал систему, мегахакер!");
-                brek;
+                break;
             } else {entered_pwd = prompt("Неверный пароль. Попробуйте ещё раз. Осталось попыток - "+i);} 
         }
         
